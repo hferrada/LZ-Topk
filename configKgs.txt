@@ -1,0 +1,18 @@
+[GLOBALS]
+TRACE = 0
+TEST = 0
+N_REP = 20000
+RUN_EXP = 1
+MAX_M = 18
+
+[TOPK]
+g = 32
+inputFile = /home/hferrada/text_data/DR/kgs_list.txt
+filesInList = 1
+dirStore = /home/hferrada/drf/topk/results/realTopkLZ/g32_kgs/
+dirResult = /home/hferrada/drf/topk/results/realTopkLZ/resume/time/g32_kgs_
+pattFromFile = 0
+lowercase = 0
+boundSymbol = 0
+cutDoc = 1
+
